@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns="http://www.logitech.com/Cassandra/2010.7/Profile">
+  <profile launchable="1" lock="0" gameid="" name="kmplayer" gpasupported="0" lastplayeddate="2020-10-18T14:10:23" guid="{303AFACC-6631-47C4-9188-9A1DC11A47B5}" gkeysdk="0">
+    <description></description>
+    <target path="C:\KMPlayer\KMPlayer.exe"/>
+    <signature value="" executable="" name="" key=""/>
+    <macros>
+      <macro hidden="false" color="4278246655" name="Left Click" guid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </macro>
+      <macro hidden="false" color="4278246655" name="Right Click" guid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </macro>
+      <macro hidden="false" color="4278246655" name="Middle Click" guid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </macro>
+      <macro hidden="false" color="4278246655" devicecategory="Logitech.Gaming.Mouse" name="DPI Shift" guid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpishift"/>
+        </mousefunction>
+      </macro>
+      <macro hidden="false" color="4278246655" devicecategory="Logitech.Gaming.Mouse" name="DPI Down" guid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </macro>
+      <macro hidden="false" color="4278246655" name="Copy" guid="{F7899D9E-8B25-45CB-B4BC-AAF99E4C87D4}">
+        <hotkeys xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Hotkeys">
+          <do task="copy"/>
+        </hotkeys>
+      </macro>
+      <macro hidden="false" color="4278246655" name="Paste" guid="{5638A489-F156-4122-A7DB-E0F880FACC0E}">
+        <hotkeys xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Hotkeys">
+          <do task="paste"/>
+        </hotkeys>
+      </macro>
+      <macro hidden="false" color="4278246655" name="backward" guid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" color="4278246655" name="forward" guid="{8B13562D-60F2-460F-9588-8C84168C81BC}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" color="4278246655" name="slow" guid="{36692607-B391-4804-9028-0765030C5AED}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMMINUS"/>
+          <modifier value="RSHIFT"/>
+        </keystroke>
+      </macro>
+      <macro hidden="false" color="4278246655" name="fast" guid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="NUMPLUS"/>
+          <modifier value="RSHIFT"/>
+        </keystroke>
+      </macro>
+    </macros>
+    <assignments devicecategory="Logitech.Gaming.Mouse.G402">
+      <assignment original="false" backup="false" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button5" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button8" macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" shiftstate="1"/>
+      <assignment original="false" backup="false" contextid="Button1" macroguid="{5DAFA657-7E0B-4D37-9F7A-FA252ED551E6}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button2" macroguid="{9D0F4485-F6CE-49AF-B3FB-328DBF996F1E}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button3" macroguid="{8B615B23-6FDC-4430-9E57-E5CCBCAC4575}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button4" macroguid="{A0D817F6-1D5D-483B-ADD0-2634CD93D42A}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button5" macroguid="{8B13562D-60F2-460F-9588-8C84168C81BC}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button6" macroguid="{A1FEC5BC-9A8A-49C5-B085-0E2EDCEF1F55}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button7" macroguid="{12C9716B-4D7A-4F6F-AF20-A0369219119A}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button8" macroguid="{68A1C0B2-2996-4992-9CC5-3285AC8E9740}" shiftstate="4"/>
+      <assignment original="false" backup="false" contextid="Button7" macroguid="{36692607-B391-4804-9028-0765030C5AED}" shiftstate="1"/>
+    </assignments>
+    <pointers>
+      <pointer devicemodel="Logitech.Gaming.Mouse.G402">
+        <mode shiftstate="1">
+          <reportrate rate="1000"/>
+          <powermode value="2"/>
+          <dpitable shiftindex="0" defaultindex="2" syncxy="1">
+            <dpi x="400" y="400" enabled="1"/>
+            <dpi x="800" y="800" enabled="1"/>
+            <dpi x="1600" y="1600" enabled="1"/>
+            <dpi x="3200" y="3200" enabled="1"/>
+          </dpitable>
+          <movement speed="-1" acceleration="1"/>
+        </mode>
+      </pointer>
+    </pointers>
+    <backlight devicemodel="Logitech.Gaming.Mouse.G402">
+      <mode color="#000000" shiftstate="1"/>
+      <mode color="#000000" shiftstate="2"/>
+      <mode color="#000000" shiftstate="3"/>
+    </backlight>
+    <script>function OnEvent(event, arg)
+    OutputLogMessage("event = %s, arg = %s\n", event, arg)
+end</script>
+  </profile>
+</profiles>
